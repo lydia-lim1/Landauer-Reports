@@ -1,0 +1,8 @@
+Save all of the 4 python files, and open them in your python IDE (e.g. Spyder)
+The 'Complete_Check.py' script is the master script, which is the only one you need to interact with and run. The others are helper functions that the Master script pulls from.
+
+In order to get an accurate result, you need to edit the filepath to previous month's monthly landauer report (the 'previous_month' variable).
+You also need to check that the spreadsheet accessible via the wearperiod_investigation_levels and annual_investigation_levels variable file path is accurate and up-to-date (reflects what is written in local rules)
+Unless there has been an update to the local rules in a given area, this spreadsheet should not change. Show the RPA the numbers in these spreadsheets if unsure.
+
+The first time you run this script, you may need to install pandas by typing pip install pandas in the IDE terminal.
