@@ -9,3 +9,6 @@ The first time you run this script, you may need to install pandas by typing pip
 
 Once you have run the script, the results should be saved in the location defined by the output file paths (e.g. the filepaths defined by the variables 
 'monthlyreport_location', 'prewarning_report_savelocation', 'annual_report_savelocation', 'previousyear_report_savelocation' and  'comparison_file').
+
+
+>> If any new landauer accounts or subaccounts get added, this script will need to be updated. Those accounts will need to be checked manually against investigation levels until they are added to the script. 
