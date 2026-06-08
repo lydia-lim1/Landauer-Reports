@@ -3,22 +3,6 @@ Script to automate comparing Landauer badge results to their respective
 annual investigation levels 
 """
 
-#Pandas is a useful python library that lets you convert excel to a dataframe and manipulate the dataframe
-import pandas as pd
-
-
-
-# path_M500070 =" "
-# path_M501124= " "
-# path_M500499=" "
-# path_M500488=" "
-# path_M500486=" "
-# path_M500484= " "
-
-# #Check that the investigation levels in spreadsheet below are up-to-date (see Personal Dosimetry W.I)
-# wearperiod_investigation_levels="C:/Users/lydia.davidson/.spyder-py3/wearperiod_investigation_levels2023.xlsx"
-# monthlyreport_location="C:/Users/lydia.davidson/.spyder-py3/monthly_exceeded.csv"
-
 def monthly_landauer_check(
         path_M500070,
         path_M501124,
